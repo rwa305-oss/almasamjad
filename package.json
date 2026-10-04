@@ -1,0 +1,1 @@
+{"name":"almas-amjad-storefront","version":"1.0.0","private":true,"description":"Almas Amjad fragrances and fabrics storefront","scripts":{"test":"node --check dist/app.js && node --check dist/config.js && node --check integration/stripe-checkout.mjs && node tests/storefront.cjs","start":"python3 -m http.server 8080 --directory dist"}}
