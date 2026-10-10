@@ -21,6 +21,6 @@ window.addEventListener('hashchange',()=>{filter='all';render();window.scrollTo(
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', 'Chat with Almas Amjad on WhatsApp (opens a new tab)');
-  link.style.cssText = 'position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:900;background:#166534;color:white;padding:14px 20px;border-radius:30px;font:600 15px/1.3 system-ui,sans-serif;text-decoration:none;box-shadow:0 4px 20px #0003;max-width:calc(100vw - 40px);';
+  link.style.cssText = 'position:fixed;right:20px;bottom:calc(90px + env(safe-area-inset-bottom));z-index:900;background:#166534;color:white;padding:14px 20px;border-radius:30px;font:600 15px/1.3 system-ui,sans-serif;text-decoration:none;box-shadow:0 4px 20px #0003;max-width:calc(100vw - 40px);';
   document.body.appendChild(link);
 }());
